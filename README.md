@@ -3,6 +3,7 @@
 This game is played on a 5x5 square board with this starting position:
 
 * Starting Position: <br />
+<pre>
   | A B C D E <br />
 --+---------- <br />
 1 | O O O O X <br />
@@ -10,6 +11,7 @@ This game is played on a 5x5 square board with this starting position:
 3 | O O X O O <br />
 4 | O O O O O <br />
 5 | X O O O O <br />
+</pre>
 
 
 RULES
@@ -23,6 +25,7 @@ non-diagonal) cell occupied by a guard, capturing it and occupying that cell.
 
 AN EXAMPLE
 
+<pre>
 The Guards’ turn: <br />
   | A B C D E <br />
 --+---------- <br />
@@ -31,8 +34,9 @@ The Guards’ turn: <br />
 3 |   X   O O <br />
 4 |       O <br />
 5 | O   O X <br />
+</pre>
 
-
+<pre>
 – Guard moves D4 → E4 <br />
   | A B C D E <br />
 --+---------- <br />
@@ -42,6 +46,7 @@ The Guards’ turn: <br />
 4 |         O <br />
 5 | O   O X <br />
 
+<pre>
 – Musketeers’ only move is to capture the guard on C5 <br />
   | A B C D E <br />
 --+---------- <br />
@@ -50,7 +55,9 @@ The Guards’ turn: <br />
 3 |   X   O O <br />
 4 |         O <br />
 5 | O   X <br />
+</pre>
 
+<pre>
 – Guard moves A5 → B5 <br />
   | A B C D E <br />
 --+---------- <br />
@@ -59,7 +66,9 @@ The Guards’ turn: <br />
 3 |   X   O O <br />
 4 |         O <br />
 5 |   O X <br />
+</pre>
 
+<pre>
 – Musketeers can only capture the guard on B5 <br />
   | A B C D E <br />
 --+---------- <br />
@@ -68,5 +77,6 @@ The Guards’ turn: <br />
 3 |   X   O O <br />
 4 |         O <br />
 5 |   X <br />
+</pre>
 
 – Guards win because 3 musketeers are all on the B column
